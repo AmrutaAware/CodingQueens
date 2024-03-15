@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css"> <!-- You can link your own stylesheet here -->
+  <style>
+    
+  </style>
+  <title>Management Panel</title>
+</head>
+<body>
+  <div id="navbar">
+    <ul>
+      <li><a href="#"><i class="fas fa-home"></i> Dashboard</a></li>
+      <li><a href="#"><i class="fas fa-users"></i> Products <div class="sub-menu">
+        <!-- Add your sub-menu items here -->
+      </div></a></li>
+      <!-- <li><a href="#"><i class="fas fa-box"></i> Product Management <div class="sub-menu">
+        Add your sub-menu items here
+      </div></a></li> -->
+      <li><a href="#"><i class="fas fa-user"></i> Client <div class="sub-menu">
+        <!-- Add your sub-menu items here -->
+      </div></a></li>
+      <li><a href="#"><i class="fas fa-cubes"></i> Stocks <div class="sub-menu">
+        <!-- Add your sub-menu items here -->
+      </div></a></li>
+      <li><a href="#"><i class="fas fa-chart-line"></i> Sales <div class="sub-menu">
+        <!-- Add your sub-menu items here -->
+      </div></a></li>
+      <li><a href="#"><i class="fas fa-shopping-cart"></i> Orders <div class="sub-menu">
+        <!-- Add your sub-menu items here -->
+      </div></a></li>
+      <li><a href="#"><i class="fas fa-user"></i> Transport <div class="sub-menu">
+        <!-- Add your sub-menu items here -->
+      </div></a></li>
+      <li><a href="#"><i class="fas fa-credit-card"></i> Invoice <div class="sub-menu">
+        <!-- Add your sub-menu items here -->
+      </div></a></li>
+      <li><a href="logout.html"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+    </ul>
+  </div>
+
+  <div class="company-info">
+    <img src="" alt="Company Logo" class="company-logo">
+  </div>
+
+  <div class="div1">
+     <img src="img/1605.m00.i125.n043.S.c12.324041900 Farm landscape with cows vector illustration.jpg" alt="Image">
+  </div>
+</body>
+</html>

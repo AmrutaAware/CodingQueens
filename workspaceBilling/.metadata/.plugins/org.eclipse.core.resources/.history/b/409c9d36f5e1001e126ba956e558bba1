@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    /* Add your custom styles here */
+    body {
+      padding-top: 56px; /* Adjust according to your navbar height */
+    }
+
+    .sidebar {
+      height: 100%;
+      width: 250px;
+      position: fixed;
+      top: 10px;
+      left: 0;
+      background-color: #343a40;
+      padding-top: 56px;
+    }
+
+    .sidebar .list-group-item {
+      color: #fff;
+      border: none;
+      background-color: transparent;
+    }
+
+    .sidebar .list-group-item:hover {
+      background-color: #495057;
+    }
+
+    .content {
+      margin-left: 250px;
+      padding: 20px;
+    }
+    .dashboard {
+    width:20%;
+    
+    position:absolute;
+    left:340px;
+    background:orange;
+    border: 3px solid orange;
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: width 2s, height 2s, transform 2s;
+    }
+    
+    .dashboard1
+    {
+    width:20%;
+    /* height:30%; */
+    position:absolute;
+    left:670px;
+    background:orange;
+    border: 3px solid orange;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+transition: width 2s, height 2s, transform 2s;
+    }
+    .dashboard2
+    {
+    width:20%;
+    /* height:30%; */
+    position:absolute;
+    left:1000px;
+    background:orange;
+    border: 3px solid orange;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+    /* .dashboard:hover {
+  width: 300px;
+  
+} */
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#"><img src="img/img_avatar1.jpeg" alt="Logo" style="width:40px;" class="rounded-pill">Admin Panel</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <nav class="navbar navbar-light bg-light" style="position: relative; left:450px">
+  <form class="form-inline" >
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</nav>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#">Dashboard</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Users</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Settings</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="#">Logout</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Sidebar -->
+
+  <div class="sidebar">
+    <div class="list-group">
+      <li class="list-group-item list-group-item-action"> <a href="#" >
+      Dashboard</a>
+      
+      
+      </li>
+      <li class="list-group-item list-group-item-action"> <a href="product.html"><i class="fas fa-users"></i> Products <div class="sub-menu">
+        <!-- Add your sub-menu items here -->
+      </div></a></li>
+      <!-- <li><a href="#"><i class="fas fa-box"></i> Product Management <div class="sub-menu">
+        Add your sub-menu items here
+      </div></a></li> -->
+      <li class="list-group-item list-group-item-action"> <a href="#"><i class="fas fa-user"></i> Client <div class="sub-menu">
+        <!-- Add your sub-menu items here -->
+      </div></a></li>
+      <li class="list-group-item list-group-item-action"><a href="#"><i class="fas fa-cubes"></i> Stocks <div class="sub-menu">
+        <!-- Add your sub-menu items here -->
+      </div></a></li>
+      <li class="list-group-item list-group-item-action"><a href="sales.html"><i class="fas fa-chart-line"></i> Sales <div class="sub-menu">
+        <!-- Add your sub-menu items here -->
+      </div></a></li>
+      <li class="list-group-item list-group-item-action"><a href="Order.html"><i class="fas fa-shopping-cart"></i> Orders 
+      <div class="sub-menu">
+      
+        <!-- Add your sub-menu items here -->
+      </div>
+      </a>
+    </li>
+      <li class="list-group-item list-group-item-action"><a href="transport.html"><i class="fas fa-user"></i> Transport <div class="sub-menu">
+        <!-- Add your sub-menu items here -->
+      </div></a></li>
+      <li class="list-group-item list-group-item-action" ><a href="#"><i class="fas fa-credit-card"></i> Invoice <div class="sub-menu">
+        <!-- Add your sub-menu items here -->
+      </div></a></li>
+      <!-- <li class="list-group-item list-group-item-action"><a href="logout.html"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+    </ul>
+  </div> -->
+  
+     <!--  <a href="#" class="list-group-item list-group-item-action">Logout</a> -->
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="content">
+    <h2>Welcome to Admin Panel</h2>
+    <p>This is a sample admin panel layout.</p>
+  </div>
+<div class="dashboard">
+      <p>this is div tag in darshboardßß</p>
+      <p>this is div tag in darshboardßß</p>
+      <p>this is div tag in darshboardßß</p>
+      <p>this is div tag in darshboardßß</p>
+      <p>this is div tag in darshboardßß</p>
+      </div>
+      <div class="dashboard1">
+      <p>this is div tag in darshboardßß</p>
+      <p>this is div tag in darshboardßß</p>
+      <p>this is div tag in darshboardßß</p>
+      <p>this is div tag in darshboardßß</p>
+      <p>this is div tag in darshboardßß</p>
+      </div>
+      <div class="dashboard2">
+      <p>this is div tag in darshboardßß</p>
+      <p>this is div tag in darshboardßß</p>
+      <p>this is div tag in darshboardßß</p>
+      <p>this is div tag in darshboardßß</p>
+      <p>this is div tag in darshboardßß</p>
+      </div>
+      <div class="dashboard3">
+      <p>this is div tag in darshboardßß</p>
+      <p>this is div tag in darshboardßß</p>
+      <p>this is div tag in darshboardßß</p>
+      <p>this is div tag in darshboardßß</p>
+      <p>this is div tag in darshboardßß</p>
+      </div>
+  <!-- Bootstrap JS, jQuery, and Popper.js -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Order Now</title>
+<link rel="stylesheet" href="OrderStyle.css">
+</head>
+<body>
+	<div id="container">
+		<form id="orderForm" action="OrderServlet" method="post">
+			<h2 id="heading">&#10047; Order Now &#10047;</h2>
+
+			<label for="foodItem">Select Product</label> <select id="foodItem"
+				name="foodItem">
+				<option value="Product 1">Product 1</option>
+				<option value="Product 2">Product 2</option>
+				<option value="Product 3">Product 3</option>
+			</select> <label for="quantity">Quantity:</label> <input type="number"
+				id="quantity" name="quantity" min="1" placeholder="Enter Quantity">
+
+			<label for="price">Price:</label> <input type="number" id="price"
+				name="price" placeholder="Enter Price"> <label
+				for="paymentOption">Select Payment Option:</label> <select
+				id="paymentOption" name="paymentOption">
+				<option value="Phonepe">Phonepe</option>
+				<option value="Gpay">Gpay</option>
+				<option value="Credit Card">Credit Card</option>
+				<option value="Cash On Delivery">Cash On Delivery</option>
+			</select> 
+			<label for="transport">Transport Facility:</label> <input
+				type="checkbox" id="transport" name="transport"> <input
+				type="hidden" name="action" value="submitOrder"> <input
+				type="submit" value="Place Order">
+		</form>
+	</div>
+</body>
+</html>

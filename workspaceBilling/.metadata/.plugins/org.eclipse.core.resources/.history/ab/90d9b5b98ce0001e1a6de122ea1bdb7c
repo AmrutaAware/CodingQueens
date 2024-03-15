@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="product.css">
+</head>
+<body>
+
+<h2>prodcut page</h2>
+<!-- <p>Resize the browser window to see the effect.</p> -->
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="image">
+      <img src="https://5.imimg.com/data5/SELLER/Default/2023/7/324945146/QU/JO/UZ/189840140/dairy-master-1000x1000.png" style="width:50px"></img>
+    </div>
+      <h3>Powder Pellets Elegnity Dairy Master Cattle Feed, Packaging Type: PP Bag, 50 kg</h3>
+
+      <p>₹ 29/ Kg</p>
+      <p>Packaging Size: 50 kg
+
+Material: Pellets
+
+Shelf Life: 1 year
+
+Form: Powder</p>
+    </div>
+    
+    <div class="slide-content "></div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="image">
+      <img src="https://5.imimg.com/data5/SELLER/Default/2023/9/341072025/CT/OA/DH/191465669/dry-cattle-feed-silage-250x250.jpeg" style="width:100px"></img>
+    </div>
+      <h3>Pellets Dry Cattle Feed Silage, Packaging Type: PP Bag, Packaging</h3>
+      <p>₹ 7/ Kg</p>
+      <p>Form
+Incepted in the year 2023, "FSA Enterprise is distinguished Wholesaler and Trader offering an enormous consignment of Cattle Feed. Corn Silage etc.</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+       <img src="http://5.imimg.com/data5/SELLER/Default/2023/9/348250138/NN/AG/RD/40107839/6-mm-saw-dust-wood-pallet-1000x1000.png" style="width:100px"></img>
+      <h3>Pellets Pellet Cattle Feed, Packaging Type: HDPE Bag, Packaging Size: 50 kg</h3>
+      <p>eeping track of customer's varied demands; we are involved in providing a varied range of Animal Feed. These are available in diverse forms that meet on patron's demand.</p>
+      <!-- <p>Some text</p> -->
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="https://5.imimg.com/data5/ANDROID/Default/2021/1/EP/OK/JC/10592595/product-jpeg-1000x1000.jpg" style="width:100px"></img>
+      <h3>Super Pallet Cattle Feed, Packaging Type: PP Laminated Bag, Packaging</h3>
+      <p>₹ 1,500/ Tonne</p>
+      <p>Packaging Size: 50kg
+
+Packaging Type: PP Laminated Bag
+
+Shelf Life: 3-4 Months</p>
+    </div>
+  </div>
+</div>
+
+<!-- row 2 -->
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+       <img src="https://5.imimg.com/data5/SELLER/Default/2022/8/EV/JE/KV/8375249/pre-starter-cow-cattle-feed-250x250.webp" style="width:100px"></img>
+      <h3>TMR Cow Cattle Feed</h3>
+      <p>Shelf Life 
+      1 Months</p>
+      
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+       <img src="https://5.imimg.com/data5/ANDROID/Default/2023/3/NR/DK/PR/15170914/product-jpeg-250x250.jpg" style="width:100px"></img>
+      <h3>Cattle Feed/h3>
+
+      <p>We are trusted by consumers for offering best range of Cattle Feed that is of best quality and finely examined by professionals following several quality steps.</p>
+      
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="https://5.imimg.com/data5/IOS/Default/2023/4/302911708/QR/RC/HT/47161101/product-jpeg-1000x1000.png" style="width:100px"></img>
+      <h3>Moong Churi Cattle Feed, Packaging Type: PP Bags, 50kg</h3>
+      <p>₹ 22/ Kg</p>
+      <p>Packaging Size: 50kg
+
+Material: Powder
+
+Packaging Type: PP Bags
+
+Shelf Life: 6 months</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="https://5.imimg.com/data5/SELLER/Default/2023/3/KK/IN/NX/15170914/chana-churi-1000x1000.webp" style="width:100px"></img>
+      <h3>Granule Dry Chana Churi Cattle Feed, Packaging Type: PP Bags, 50</h3>
+      <p>₹ 26/ Kilogram</p>
+      <p>Packaging Size: 50 Kg</p>
+    </div>
+  </div>
+</div>
+
+  <!-- row3  -->
+
+  <div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://5.imimg.com/data5/JF/AU/LK/SELLER-10600321/mega-star-natural-8000-cattle-feed-500x500.jpg" style="width:100px">
+      <h3>Mega Star Natural 8000 Cattle Feed, Packaging Type: PP Bags</h3>
+      <p>₹ 1,450/ Tonne</p>
+      <p>This feed is used for Cows, who gives 22-30 ltrs milk.</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://5.imimg.com/data5/SELLER/Default/2021/9/YF/QO/GY/44610330/toor-chunni-cattle-feed-1000x1000.jpeg" style="width:100px">
+      <h3>Toor Chunni Cattle Feed, Anandshri, 50 kg</h3>
+      <p>₹ 22/ KG</p>
+      <p>Packaging Size: 50 kg</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="https://5.imimg.com/data5/ANDROID/Default/2024/2/387859864/FH/JZ/GT/502911/product-jpeg-1000x1000.jpg" style="width:100px ;height: 90px;">
+      <h3>Calf Starter Cattle Feed, Packaging Type: PP Bag, 25 kg</h3>
+      <p>₹ 950/ Kg</p>
+      <p>
+Very important during the trantion period. If calves are feed with Calf starter. it leads to good body growth, healthy Rumen development & succesful  weaving of the Calf.</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+       <img src="https://5.imimg.com/data5/ANDROID/Default/2024/2/387859864/FH/JZ/GT/502911/product-jpeg-1000x1000.jpg" style="width:100px ;height: 90px;">
+      <h3>Orid Husk Cattle Feed</h3>
+      <p>We are indulged in offering the finest quality Orid Husk Cattle Feed.
+Other details:</p>
+      <p>- Presence of energy boosters in Orid Husk and Powder, helps in improving and maintaining the good health of animals</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
